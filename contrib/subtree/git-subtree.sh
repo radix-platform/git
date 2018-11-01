@@ -100,7 +100,7 @@ show_externals () {
       commit="$b"
       ;;
     git-subtree-dir:)
-      if test -n "$dir"
+      if test -n "$dir" -a -d "$dir"
       then
         if test "$dir" = "$b"
         then
