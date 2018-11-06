@@ -175,7 +175,7 @@ show_externals () {
               debug ""
               debug "The '$dir' subtree seems not updated:"
               debug "   original revision: $updated"
-              debug "    reemote revision: $rev"
+              debug "     remote revision: $rev"
               debug "You can update '$dir' subtree by following command:"
               debug ""
               debug "   git subtree pull --prefix=$dir $repo $ref"
